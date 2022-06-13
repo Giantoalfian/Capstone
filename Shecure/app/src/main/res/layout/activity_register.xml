@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:backgroundTint="@color/design_default_color_background">
+
+    <ImageView
+        android:id="@+id/sign_up"
+        android:layout_width="271dp"
+        android:layout_height="214dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/gbr1" />
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="270dp"
+        android:fontFamily="@font/mobold"
+        android:gravity="top"
+        android:text="@string/signup"
+        android:textAppearance="@style/login" />
+
+    <LinearLayout
+        android:background="@drawable/rectangle"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="325dp"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email"
+            android:drawableLeft="@drawable/vector"
+            android:drawablePadding="13dp"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="@drawable/rectangle"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="380dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"
+            android:id="@+id/fullname"
+            android:drawableLeft="@drawable/ac"
+            android:drawablePadding="13dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/rectangle"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="435dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/password"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="13dp"
+            />
+    </LinearLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/btn_register"
+        android:layout_width="284dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/reg" />
+    <!-- Or -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="560dp"
+        android:gravity="top"
+        android:text="Already Have an Account?"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/black"
+        />
+    <!-- Register -->
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="55dp"
+        android:layout_height="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="584dp"
+        android:gravity="top"
+        android:text="@string/login"
+        />
+</RelativeLayout>

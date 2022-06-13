@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Shecure</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="login">Login</string>
+    <!-- strings.xml -->
+    <string name="register">Register</string>
+    <!-- strings.xml -->
+    <string name="email">Email</string>
+    <string name="signup">SignUp</string>
+</resources>

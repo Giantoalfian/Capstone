@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/hometop" />
+
+    <TextView
+        android:id="@+id/shecure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto"
+        android:gravity="top"
+        android:text="SheCure"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16sp"
+        android:layout_marginTop="60dp"
+        android:text="Dalam menjaga kesejahteraan wanita dan anak"
+        android:textColor="@color/white" />
+
+    <ImageButton
+        android:id="@+id/lapor"
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/lapor" />
+
+    <ImageButton
+        android:id="@+id/lokasi"
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="185dp"
+        android:background="@drawable/lokasi"/>
+
+    <ImageButton
+        android:id="@+id/konsul"
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/konsul" />
+
+    <ImageButton
+        android:id="@+id/deteksi"
+        android:layout_width="145dp"
+        android:layout_height="115dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/deteksi"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/menu" />
+
+</RelativeLayout>

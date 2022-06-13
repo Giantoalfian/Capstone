@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:backgroundTint="@color/design_default_color_background">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="271dp"
+        android:layout_height="214dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/gbr1" />
+
+    <TextView
+        android:layout_width="120dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="270dp"
+        android:fontFamily="@font/mobold"
+        android:gravity="top"
+        android:text="@string/login"
+        android:textAppearance="@style/login" />
+
+    <LinearLayout
+        android:background="@drawable/rectangle"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="325dp"
+        >
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:id="@+id/email"
+            android:drawableLeft="@drawable/vector"
+            android:drawablePadding="13dp"
+
+            />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:background="@drawable/rectangle"
+        android:layout_width="259dp"
+        android:layout_height="45dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="380dp"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/password"
+            android:drawablePadding="13dp"
+            />
+    </LinearLayout>
+
+
+    <!-- Forgot Password? -->
+    <TextView
+        android:id="@+id/forgot_pass"
+        android:layout_width="129dp"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="180dp"
+        android:layout_marginTop="430dp"
+        android:fontFamily="@font/inter"
+        android:gravity="top"
+        android:text="@string/forgot_pass"
+        android:textAppearance="@style/forgot_pass" />
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/btn_login"
+        android:layout_width="284dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="500dp"
+        android:background="@drawable/log" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="560dp"
+        android:gravity="top"
+        android:text="Or"
+        android:fontFamily="@font/inter"
+        android:textColor="@color/black"/>
+    <!-- Register -->
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="55dp"
+        android:layout_height="17dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="584dp"
+        android:gravity="top"
+        android:text="@string/register"
+        android:textAppearance="@style/register" />
+</RelativeLayout>

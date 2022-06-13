@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "272404982131",
+    "project_id": "shecure-bb3fe",
+    "storage_bucket": "shecure-bb3fe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272404982131:android:80d7eafaf70b4c6dc3bd06",
+        "android_client_info": {
+          "package_name": "com.example.shecure"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "272404982131-k3tpp7163un8ck63i0hoiqj0lbg2k7ri.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKrs9qMgKSV7lAy99JTxuddG2h9XE4k9c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "272404982131-k3tpp7163un8ck63i0hoiqj0lbg2k7ri.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
